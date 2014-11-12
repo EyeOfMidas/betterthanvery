@@ -1,0 +1,111 @@
+/*  
+Sticky Footer Solution
+by Steve Hatcher 
+http://stever.ca
+http://www.cssstickyfooter.com
+*/
+
+* {margin:0;padding:0;} 
+
+/* must declare 0 margins on everything, also for main layout components use padding, not 
+vertical margins (top and bottom) to add spacing, else those margins get added to total height 
+and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
+
+html, body {height: 100%;}
+
+#wrap {min-height: 100%;}
+
+#main {overflow:auto;
+    padding: 5px;
+	padding-bottom: 60px;}  /* must be same height as the footer */
+
+#footer {position: relative;
+	margin-top: -40px; /* negative value of footer height */
+	height: 40px;
+	clear:both;} 
+
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}
+
+
+
+/* IMPORTANT
+
+You also need to include this conditional style in the <head> of your HTML file to feed this style to IE 6 and lower and 8 and higher.
+
+<!--[if !IE 7]>
+	<style type="text/css">
+		#wrap {display:table;height:100%}
+	</style>
+<![endif]-->
+
+*/
+
+html, body {
+    font-family: sans-serif;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    height: 100%;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+    font-weight: bold;
+}
+h2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#header {
+    text-align: center;
+    padding: 20px;
+}
+
+#verysuggest {
+    padding: 20px;
+    text-align: center;
+}
+
+#suggestion {
+    text-align: center;
+    padding: 20px;
+}
+
+#suggestion ul {
+    padding: 10px;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+#suggestion ul li {
+    
+}
+
+#word {
+ padding: 5px;
+    width: 100px;
+}
+
+#getvocab {
+ padding: 5px;   
+}
+
+#alts {
+ display: none;   
+}
+
+#footer {
+ text-align: center;   
+}
