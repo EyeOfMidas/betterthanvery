@@ -2,7 +2,8 @@
     <head>
         <link rel="stylesheet" media="all" type="text/css" href="style.css" />
     </head>
-    <body><div id="wrap">
+    <body><?php include_once('analyticstracking.php'); ?>
+<div id="wrap">
         <div id="main">
             <div id="header">
 <h1>Better Than Very</h1>
@@ -43,8 +44,6 @@
                 }, 'json');
                 return false;
             });
-            
-            
         </script>
     </body>
 </html>
