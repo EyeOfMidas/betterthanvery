@@ -1,6 +1,11 @@
 <html>
     <head>
+	<title>Better Than Very</title>
+	<link rel="icon" type="image/png" href="betterthanvery_icon.png" />
         <link rel="stylesheet" media="all" type="text/css" href="style.css" />
+	<meta property="og:title" content="Better Than Very" />
+	<meta property="og:description" content="Ever find yourself stuck trying to describe something and 'very' isn't cutting it? This site can suggest better words to use!" />
+	<meta property="og:image" content="http://betterthanvery.com/betterthanvery_logo.png" />
     </head>
     <body><?php include_once('analyticstracking.php'); ?>
 <div id="wrap">
