@@ -5,14 +5,15 @@
         <link rel="stylesheet" media="all" type="text/css" href="style.css" />
 	<meta property="og:title" content="Better Than Very" />
 	<meta property="og:description" content="Ever find yourself stuck trying to describe something and 'very' isn't cutting it? This site can suggest better words to use!" />
-	<meta property="og:image" content="http://betterthanvery.com/betterthanvery_logo.png" />
+	<meta name="description" content="Ever find yourself stuck trying to describe something and 'very' isn't cutting it? This site can suggest better words to use!" />
+	<meta property="og:image" content="betterthanvery_logo.png" />
     </head>
     <body><?php include_once('analyticstracking.php'); ?>
 <div id="wrap">
         <div id="main">
             <div id="header">
-<h1>Better Than Very</h1>
-        <h2>Using very as an adjective is the mark of a limited vocabulary. Instead, search the word you're looking for to get a replacement.</h2>
+		<img src="betterthanvery_logo.png" />
+        <h2>Using <em>very</em> as an adjective is the mark of a limited vocabulary. Instead, search the word you're looking for to get a replacement.</h2>
                 </div>
         <form id="verysuggest" method="post" action="suggest.php">
             Very <input type="text" id="word" placeholder="happy"/>
