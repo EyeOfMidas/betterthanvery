@@ -24,7 +24,7 @@
             
         </div>
         </div>
-        <div id="footer">Is your word missing? <a href="mailto:eyeofmidas+betterthanvery@gmail.com">Make a request</a></div>
+        <div id="footer">Is your word missing? <a href="https://github.com/EyeOfMidas/betterthanvery/pulls">Make a request</a> or <a href="mailto:eyeofmidas+betterthanvery@gmail.com">send an email</a></div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script type="text/javascript">        
