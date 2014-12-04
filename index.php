@@ -7,6 +7,7 @@
 	<meta property="og:description" content="Ever find yourself stuck trying to describe something and 'very' isn't cutting it? This site can suggest better words to use!" />
 	<meta name="description" content="Ever find yourself stuck trying to describe something and 'very' isn't cutting it? This site can suggest better words to use!" />
 	<meta property="og:image" content="betterthanvery_logo.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
     <body><?php include_once('analyticstracking.php'); ?>
 <div id="wrap">
@@ -20,8 +21,6 @@
             <input id="getvocab" type="submit" value="Suggest"/>
         </form>
             <div id="suggestion"></div>
-            
-            
         </div>
         </div>
         <div id="footer">Is your word missing? <a href="https://github.com/EyeOfMidas/betterthanvery/pulls">Make a request</a> or <a href="mailto:eyeofmidas+betterthanvery@gmail.com">send an email</a></div>
